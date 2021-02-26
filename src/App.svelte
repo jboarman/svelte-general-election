@@ -2,7 +2,7 @@
 	import locations from './locations.json';
 	console.log(`running version ${locations.length}`);
 
-	import Modal from '../src/Modal.svelte'
+	import Modal from './modal.svelte'
 
 	let imgSrc = 'SvelteAppMedia/downtown-mckinney.jpeg'
 	
